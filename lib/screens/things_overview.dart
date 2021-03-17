@@ -18,7 +18,7 @@ class ThingsOverview extends StatelessWidget {
           SliverList(
               delegate: SliverChildBuilderDelegate(
                   (context, index) => _MyListItem(index),
-                  childCount: 200))
+                  childCount: 10))
         ],
       ),
       floatingActionButton: FloatingActionButton(
